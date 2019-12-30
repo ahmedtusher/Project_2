@@ -1,163 +1,152 @@
-        body{
-            background-color: #fff;
-            margin: 0 auto;
-            padding: 0;
-            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        }
-        .forbg{
-            margin: -20px 0px;
-            padding-top: 20px;
-            height: 690px;
-            background-image: url(../img/bg.svg);
-            background-repeat: no-repeat;
-            background-position: center;
-        }
-        .nobody {
-            width: 1080px;
-            margin: 0 auto;
-            padding: 0;
-        }
-        .logo{
-            padding-top: 5px;
-            margin: 0;
-            float: left;
-            height: 100%;
-        }
-        header{
-            height: 60px;
-            margin: 20px 0px;
-            padding: 0;
-            overflow: hidden;
-        }
-        nav{
-            float: right;
-            margin-right: 55px;
-            padding-top: 10px;
-            
-        }
-        li{
-            list-style: none;
-            display:inline-block;
-            text-align:center;
-            padding: 0px;
-            margin: 0;
-            font-size: 0;
-            width: 65px;
-        }
-        li a{
-            display:inline-block;
-            text-align:center;
-            font-size:  16px;
-        }
-        .searchico{
-            position: relative;
-            top:-6px;
-            width: 26px;
-        }
-        
-        .button1{
-            padding: 10px 30px;
-            background: #588af0;
-            color: white;
-            border-radius: 25px;
-            font-weight: bold;
-            font-size: 14px;
-            margin-left: 15px;
-        }
-        .button1 a{
-            color: white;
-        }
-        .current{
-            font-weight: bold;
-        }
-        a{
-            color: black;
-            text-decoration: none;
-        }
-        a:hover{
-            color: black;
-            font-weight: bold;
-            text-decoration: none;
-        }
-        
-        .landing{
-            position: relative;
-            top: 15px;
-            margin: 100px 0px 0 0;
-        }
-        .landing .bt{
-            font-size: 45px;
-            font-weight: bold;
-        }
-        .walking{
-            float: right;
-            height: 400px;
-            position: relative;
-            bottom: 310px;
-            right: 90px;
-            
-        }
-        .fl{
-            float: left;
-        }
-        .fr{
-            float: right;
-        }
-        .landingdesc{
-            width: 50%;
-            font-size: 20px;
-            font-weight: normal;
-            margin: 0;
-        }
-        .clearfix{
-            clear: both;
-        }
-        .oh{
-            overflow: hidden;
-        }
-        .wrap1{
-            position: relative;
-            top: 45px;
-        }
-        .wrap1 a{
-            color: white;
-        }
-        .b1,.b2{
-            width: 170px;
-            background: #588af0;
-            padding: 10px;
-            margin-right: 15px;
-            text-align:center;
-            text-transform: uppercase;
-            font-weight: bold;
-            border-radius: 5px;
-        }
-        .b2{
-            background: #a377f0;
-        }
-        .mainbody1{
-            width: 1080px;
-            margin: auto;
-        }
-        .mainbody1 img{
-            height: 500px;
-            float: left;
-            clear: both;
-            position: relative;
-            top: -130px;
-        }
-        .mbd{
-            float: left;
-            width: 45%;
-            position: relative;
-            margin: 0px 0px 0px 90px; 
-        }
-        .mbd a{
-            color: white;
-        }
-        .wrap2{
-            background: #e1f4fe;
-            height: 650px;
-            position: relative;
-            top: -70px;
-        }
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/bg.svg);
+    background-repeat: no-repeat;
+    background-position: 54% -1%;
+    height: 1360px;
+    margin: auto;
+    background-size: 2000px 2200px;
+}
+.navwrap{
+    width: 1200px;
+    margin: auto;
+}
+header{
+    margin: 20px 25px;
+}
+header a{
+    color: black;
+    font-weight: bold;
+}
+header a:hover{
+    color: #588af0;
+    text-decoration: none;
+
+}
+header h1{
+    float: left;
+    margin: 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+header nav{
+    float: right;
+    margin: 0px;
+}
+header nav li{
+    display: inline-block;
+    margin: 0 13px;
+
+}
+.search-svg{
+    height: 25px;
+}
+.signup{
+    background: #588af0;
+    padding: 7px 25px;
+    border-radius: 20px;
+    margin: 0px 18px;
+}
+.signup a{
+    color: white;
+    font-weight: bold;
+}
+.signup a:hover{
+    color: white;
+    text-decoration: none;
+
+}
+.ldwrap{
+    width: 1200px;
+    margin: auto;
+}
+.ld1{
+    margin: 115px 30px;
+    width: 40%;
+    float: left;
+}
+.landing h1{
+    font-size: 50px;
+}
+.landing p{
+    margin: 30px 0 60px 0;
+    font-size: 17px;
+}
+.landing a{
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.buttons a{
+    color: white;
+    font-weight: bold;
+}
+.buttons a:hover{
+    text-decoration: none;
+}
+.ldb1{
+    background: #588af0;
+}
+.ldb2{
+    margin-left: 20px;
+    background: #a377f0;
+}
+.ld2{
+    float: right;
+    margin: 65px 165px 0 0;
+}
+.ld3{
+    margin: 200px 50px;
+    width: 40%;
+    float: right;
+}
+.ld3 .ldb2{
+    margin: 0;
+}
+.ld4{
+    float: left;
+    margin: 70px 0 0 30px;
+}
+.ld4 img{
+    height: 550px;
+}
+.ld5{
+    margin: 100px 60px;
+    width: 40%;
+    float: left;
+}
+.ld5 p{
+    margin-bottom: 50px;
+}
+.ld6{
+    float: right;
+    margin: 70px 30px 0 0;
+}
+.ld6 img{
+    height: 550px;
+}
+
+.bullets{
+    background: #588af0;
+    font-size: 20px;
+    padding: 4px 11px;
+    border-radius: 100px;
+    text-align: center;
+    margin: 0px 10px;
+    font-weight: bold;
+    color: white;
+}
+.pointers .desc{
+    padding-top: 4px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.pointers p{
+    padding-left: 83px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+.features{
+    height: 250px;
+}
