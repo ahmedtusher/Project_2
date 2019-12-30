@@ -11,60 +11,94 @@
     <style type="text/css">
         /* override css */
         
+        .clearfix{
+            clear: both;
+        }
+        .fl{
+            float: left;
+        }
+        .fr{
+            float: right;
+        }
+        /*custom*/
+        
         
         
     </style>    
 </head>
 
 <body>
-    <div class="forbg">
-    <div class="nobody">
-        <header>
-            <h1 class="logo">Logo</h1>
+    <div class="navwrap clearfix">
+        <header class="nav-sect">
+            <h1>Hello World</h1>
             <nav>
-                <li class="current"><a href="">Home</a></li>
                 <li><a href="">Home</a></li>
                 <li><a href="">Home</a></li>
                 <li><a href="">Home</a></li>
                 <li><a href="">Home</a></li>
                 <li><a href="">Home</a></li>
                 <li><a href="">Home</a></li>
-                <li><a href="#"><img class="searchico" src="icons/search.svg" alt=""></a></li>
-                <li><span class="button1"><a href="">Home</a></span></li>
+                <li><a href="#"><img class="search-svg" src="icons/search.svg" alt=""></a></li>
+                <li class="signup"><a href="">Home</a></li>
             </nav>
         </header>
-        <section class="landing clearfix">
-            <p class="bt fl">HELLO, <br> These Guys are Pro</p>
-            <p class="landingdesc fl clearfix">Sign up or Sign in and become a member today to get exclusive benefits and other freebies.</p>
-            <div class="wrap1 clearfix">
-
-                <div class="b1 fl">
-                    <a href="">sign up now</a>
-                </div>
-
-                <div class="b2 fl">
-                    <a href="">download now</a>    
-                </div>
-
-            </div>
-            
-            <img class="walking" src="icons/walk.svg" alt="">
-            
-        </section>    
-    </div>
     </div>
     
-    <div class="wrap2">
-    <section class="mainbody1">
-            <img src="img/mobg.svg" alt="">
-            <div class="mbd">
+    <div class="ldwrap">
+        <section class="landing">
+           
+            <div class="ld1">
+                <h1>We make the world a better place</h1>
+                <p>Sign up or Sign in and become a member today to get exclusive benefits and other freebies.</p>
+                <span class="buttons">    
+                    <a class="ldb1" href="">SIGN UP NOW</a>
+                    <a class="ldb2" href="">DOWNLOAD NOW</a>
+                </span>
+            </div>
+            
+            <div class="ld2">
+                <img src="icons/walk.svg" alt="">
+            </div>
+            
+            <div class="ld3 clearfix">
                 <h2>Why choose our app for your business ?</h2>
                 <p>Exponent WordPress theme is insanely flexible and amazingly easy to use. This alone would be enough for a 5 star rating. On top of a great tool is even better customer support. The only theme you will ever need.</p>
-                <div class="b2 fl">
-                    <a href="">download now</a>    
-                </div>
+                <span class="buttons">
+                    <a class="ldb2" href="">DOWNLOAD NOW</a>
+                </span>    
             </div>
-    </section>
+            
+            <div class="ld4">
+                <img src="img/g1.svg" alt="">
+            </div> 
+            
+            <div class="ld5  clearfix">
+                <h2>We make you ultra productive</h2>
+                <p>Exponent WordPress theme is insanely flexible and amazingly easy to use. This alone would be enough for a 5 star rating.</p>
+                
+                <span class="pointers">
+                    <h3 class="fl bullets">1</h3>
+                    <h3 class="fl desc">Getting Started </h3>
+                    <p class="clearfix">Get started swiftly & easily by importing a demo of your choice in a single click.</p>
+                    
+                    <h3 class="fl bullets">2</h3>
+                    <h3 class="fl desc">Getting Started </h3>
+                    <p class="clearfix">Get started swiftly & easily by importing a demo of your choice in a single click.</p>
+                    
+                    <h3 class="fl bullets">3</h3>
+                    <h3 class="fl desc">Getting Started </h3>
+                    <p class="clearfix">Get started swiftly & easily by importing a demo of your choice in a single click.</p>
+                </span>
+                
+            </div>
+            
+            <div class="ld6">
+                <img src="img/ch.svg"alt="">
+            </div> 
+        </section>
+        <div class="features fl clearfix">
+            
+        </div>
     </div>
 </body>
 </html>
